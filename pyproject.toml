@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "accordion-images"
+version = "0.1.0"
+description = ""
+authors = ["Gil Cunha <pgilfc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "accordion_images"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^9.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
